@@ -1,0 +1,40 @@
+# 機密情報を含むファイル
+config.json
+settings.json
+secret*.json
+token*.txt
+*credentials*
+
+# 開発用一時ファイル
+.specstory/
+.clasp.json
+.vscode/
+.idea/
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# ログファイル
+*.log
+
+# バックアップファイル
+*~
+*.bak
+*.tmp
+
+# 環境変数ファイル
+.env
+.env.local
+.env.development
+.env.production
+
+# Node.js関連
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# その他の一時ファイル
+tmp/
+temp/ 
